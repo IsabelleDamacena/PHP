@@ -1,0 +1,22 @@
+*obs: Professor, eu não fiz o BD por meio de código, eu criei este script depois.
+
+
+create database uninove;
+
+
+use uninove;
+
+CREATE TABLE clientes (
+id int PRIMARY KEY auto_increment,
+nome varchar(50),
+email varchar (50),
+senha varchar (50),
+);
+
+INSERT into clientes (nome, email, senha) VALUES
+('Claúdio Montana','claudiomontana@gmail.com', '123456'),
+('Andressa Soares','andressasoares@gmail.com', '102030'),
+('Elsa Tanques','elsafrozen@gmail.com', '098767'),
+('Gabriel Siloé','gabrielsiloe@gmail.com', '735382'),
+('Mileny Passos','mypassos@gmail.com', '270804'),
+('Maria dos santos','mariasantos@gmail.com.br', '937252');
